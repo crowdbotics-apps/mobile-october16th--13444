@@ -29,7 +29,7 @@ export default class Blank extends React.Component {
     <View>
       <Text>Sample text content</Text>
       <Icon name="envelope" />
-      <Icon name="address-book" style={styles.Icon_9} />
+      <Icon name="avianex" style={styles.Icon_9} />
       <Button
         title="Press me!"
         color="#33ff5c"
@@ -45,6 +45,11 @@ const styles = StyleSheet.create({
     marginHorizontal: 16
   },
 
+  View_1: {},
+  Text_3: {},
+  Icon_7: {},
+  Icon_9: { color: "#e83030" },
+  Button_5: {},
   View_1: {},
   Text_3: {},
   Icon_7: {},
